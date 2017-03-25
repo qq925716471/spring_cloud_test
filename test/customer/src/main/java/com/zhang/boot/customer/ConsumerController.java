@@ -17,7 +17,7 @@ public class ConsumerController {
     RestTemplate restTemplate;
 
     @RequestMapping(value = "/add", method = RequestMethod.GET)
-    public @ResponseBody String add() {
+    public String add() {
         return restTemplate.getForEntity("http://COMPUTE-SERVICE/add?a=10&b=20", String.class).getBody();
     }
 
