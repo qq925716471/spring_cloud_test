@@ -63,6 +63,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/gate_way/src/main/java/com/zhang/boot/filter/AccessFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/gate_way/src/main/resources/application.properties">
           <value>
             <set />
