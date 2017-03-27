@@ -23,12 +23,14 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="customer" />
+        <module name="gate_way" />
         <module name="server" />
         <module name="service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="customer" target="1.6" />
+      <module name="gate_way" target="1.6" />
       <module name="server" target="1.6" />
       <module name="service" target="1.6" />
       <module name="test" target="1.6" />
